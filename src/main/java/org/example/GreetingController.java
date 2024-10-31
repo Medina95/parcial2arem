@@ -2,6 +2,9 @@ package org.example;
 
 import java.util.concurrent.atomic.AtomicLong;
 
+import org.example.record.Greeting;
+import org.example.record.binary;
+import org.example.record.lineal;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
