@@ -8,5 +8,5 @@ en https://github.com/Medina95/proxiserverparcial2.git
 
 
 
-Me falto delegarlo a la peticion get del proxiserver y subir los mathservices en aws    y realizar correctamente la petición 
+Me falto delegarlo a la peticion get del proxiserver y su HttpConnection  y subir el  mathservices en aws  porque ya esta completo y funciona correctamente en local.
 en la maquina 
