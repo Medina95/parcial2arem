@@ -20,17 +20,18 @@ public class GreetingController {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
     @GetMapping("/binary")
-    public binary binary3(@RequestParam(value = "list") String list, @RequestParam(value = "value") String value) {
+    public String binary3(@RequestParam(value = "list") String list, @RequestParam(value = "value") String value) {
         String respuesta=  mathServices.busquedabinaria(list.split(","),value);
 
-        return new binary("busqueda binaria",list,value,respuesta);
+        return respuesta;
+
     }
 
 
     @GetMapping("/lineal")
-    public lineal lineal(@RequestParam(value = "list") String list, @RequestParam(value = "value") String value) {
+    public String lineal(@RequestParam(value = "list") String list, @RequestParam(value = "value") String value) {
         String respuesta=  mathServices.Busquedalineal(list.split(","),value);
-        return new lineal("busqueda lineal",list,value,respuesta);
+        return respuesta;
     }
 
 
