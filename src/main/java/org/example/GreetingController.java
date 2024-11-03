@@ -21,7 +21,7 @@ public class GreetingController {
     }
     @GetMapping("/binary")
     public binary binary3(@RequestParam(value = "list") String list, @RequestParam(value = "value") String value) {
-        String respuesta=  mathServices.Busquedalineal(list.split(","),value);
+        String respuesta=  mathServices.busquedabinaria(list.split(","),value);
 
         return new binary("busqueda binaria",list,value,respuesta);
     }
