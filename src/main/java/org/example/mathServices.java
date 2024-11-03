@@ -41,9 +41,9 @@ public class mathServices {
                 return  mid;
             }
             if ( Integer.parseInt(list[mid])>Integer.parseInt(valor)){
-                binaryrecursive(list,valor,left,mid-1);
+               return  binaryrecursive(list,valor,left,mid-1);
             }
-            binaryrecursive(list,valor,left,mid-1);
+            return  binaryrecursive(list,valor,mid+1,right);
         }
         return -1;
     }
