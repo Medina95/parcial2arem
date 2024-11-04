@@ -10,4 +10,4 @@ en https://github.com/Medina95/proxiserverparcial2.git
 
 Me falto delegarlo a la peticion get del proxiserver y su HttpConnection  y subir el  mathservices en aws  porque ya esta completo y funciona correctamente en local.
 en la maquina 
-[despliegue en AWS funcionando](https://drive.google.com/file/d/1rUxCefkKHFl07Oq_k1zsnk4wLFGEJuk4/view?usp=sharing)
+[despliegue en AWS funcionando](https://drive.google.com/file/d/1g5huHFBjkI0S--ymMp-W19OYD7pG3vXX/view?usp=sharing)
